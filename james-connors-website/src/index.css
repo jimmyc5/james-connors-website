@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  background-color: rgb(255, 224, 184);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input.navButton + label {
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+}
+
+input.navButton:checked + label {
+  background-color: rgb(255, 247, 236);
+  padding: 10px;
+  border: none;
+}
+
+.navButton:hover{
+  background-color: antiquewhite;
+}
