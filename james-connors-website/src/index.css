@@ -32,3 +32,24 @@ input.navButton:checked + label {
 .navButton:hover{
   background-color: antiquewhite;
 }
+
+.footer {
+  background-color: rgb(255, 224, 184);;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  /* height: 60px; */
+  width: 100%;
+}
+
+.phantomFooter {
+  height:60px;
+  width: 100%;
+}
+
+.linkImage {
+  width: 25px;
+  height:25px;
+}

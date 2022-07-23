@@ -5,6 +5,7 @@ import Contact from "./Pages/Contact";
 import Experience from "./Pages/Experience";
 import Projects from "./Pages/Projects";
 import Skills from "./Pages/Skills";
+import Footer from './Components/Footer';
 
 function App() {
   const [currentTab, setCurrentTab] = useState("about");
@@ -44,6 +45,7 @@ function App() {
                 </div>
             </div>
             {renderTab()}
+            <Footer />
         </div>
     );
 }
