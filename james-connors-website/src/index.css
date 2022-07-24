@@ -1,3 +1,29 @@
+.baseStyle {
+  background-color: #25274D;
+  color: #aaabb8;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lightBlueText {
+  color: #2E9CCA;
+}
+.darkBlueText {
+  color: #29648A;
+}
+.darkGreyText {
+  color: #464866;
+}
+.defaultText {
+  color: #AAABB8;
+}
+.backgroundColorText {
+  color: #25274D;
+}
+
+.pictureBorder {
+  border: #464866;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,7 +39,7 @@ code {
 }
 
 .header {
-  background-color: rgb(255, 224, 184);
+  background-color: #25274D;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -24,17 +50,17 @@ input.navButton + label {
 }
 
 input.navButton:checked + label {
-  background-color: rgb(255, 247, 236);
+  color: #2E9CCA;
   padding: 10px;
   border: none;
 }
 
 .navButton:hover{
-  background-color: antiquewhite;
+  color: #1449ba;
 }
 
 .footer {
-  background-color: rgb(255, 224, 184);;
+  background-color: #25274D;
   text-align: center;
   padding: 20px;
   position: fixed;
