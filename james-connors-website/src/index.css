@@ -49,10 +49,35 @@ input.navButton + label {
   border: none;
 }
 
+input.navButton + p.navLabel {
+  background-color: transparent;
+  border-left:5px solid #464866;
+  padding: 10px;
+}
+
+input.navButton + p.navLabel:hover {
+  background-color: #464866;
+}
+
 input.navButton:checked + label {
   color: #2E9CCA;
   padding: 10px;
   border: none;
+}
+
+input.navButton:checked + p.navLabel {
+  color: #2E9CCA;
+  padding: 10px;
+  border-left:5px solid #2E9CCA;
+  background-color: #464866;
+}
+
+.tabs{
+  
+}
+
+.experienceBox{
+  height: 15em;
 }
 
 .navButton:hover{

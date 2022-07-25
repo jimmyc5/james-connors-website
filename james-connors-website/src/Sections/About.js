@@ -2,7 +2,7 @@ import Headshot from "../Images/Headshot.png"
 export default function About(){
     return (
         <div className="d-flex justify-content-center col-12">
-            <div className="col-11 col-lg-9 justify-content-center d-flex flex-wrap">
+            <div className="col-11 col-lg-9 col-xl-6 justify-content-center d-flex flex-wrap">
                 <div className="mt-0 co-12 mb-md-5">
                     <p className="mb-0">Hi there! I'm</p>
                     <p className="h1" style={{fontSize: 60}}> <span className="lightBlueText">James Connors</span>.</p>
@@ -10,7 +10,7 @@ export default function About(){
                 </div>
                 <div className="col-12 d-flex justify-content-center align-items-stretch flex-wrap">
                     <div className="d-md-none col-12 d-flex justify-content-center mt-3 mb-2">
-                        <img src={Headshot} className="rounded img-thumbnail pictureBorder" style={{maxHeight: "200px"}}></img>
+                        <img src={Headshot} className="rounded img-thumbnail pictureBorder" style={{maxHeight: "300px"}}></img>
                     </div>
                     <div className="col-md-8 col-12">
                         <p className="lightBlueText h4">About Me</p>
