@@ -47,7 +47,7 @@ export default function Experience(){
                 dateRange="May 2020 - February 2022"
                 detailsList={[
                     " Worked part time as a Research Assistant for Professor John R. Hott.",
-                    " Performed tasks including: parsing, anonymization, visualization and analysis of data utilizing Python and other tools, and collaborating on resulting publication and presentation.",
+                    " Tasks included the parsing, anonymization, visualization, and analysis of data utilizing Python and other tools, plus collaborating on the resulting publication and presentation.",
                     ' Published and presented the resulting paper "How Do Students Collaborate? Analyzing Group Choice in a Collaborative Learning Environment" in the conference SIGCSE 2021.'
                 ]}/>
             default:
@@ -56,13 +56,13 @@ export default function Experience(){
     }
 
     return (
-        <div className="col-12 justify-content-center d-flex flex-wrap mt-5">
-            <div className="col-xl-6 col-lg-10 col-sm-10 col-12 d-flex justify-content-center flex-wrap">
+        <div className="col-12 justify-content-center d-flex flex-wrap mt-5 mb-5">
+            <div className="col-xl-8 col-lg-10 col-sm-10 col-12 d-flex justify-content-center flex-wrap">
                 <p className="lightBlueText h4 col-12"> Work Experience </p>
-                <div className="col-12 d-flex align-items-stretch justify-content-center">
+                <div className="col-12 d-flex align-items-stretch justify-content-center darkBox" style={{minHeight: "20em"}}>
                     <div className="col-3 d-flex">
-                        <div className="radio d-flex flex-column justify-content-center align-items-stretch tabs">
-                            <label className="navLabel">
+                        <div className="radio d-flex flex-column justify-content-start align-items-stretch tabs">
+                            <label className="navLabel mt-1">
                                 <input type="radio" value="CapTech" name="tab" className="navButton d-none" onChange={(e) => setCurrentTab(e.target.value)} checked={currentTab==="CapTech"}/>
                                 <p className="navLabel mb-0"> CapTech </p>
                             </label>

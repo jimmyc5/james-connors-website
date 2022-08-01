@@ -2,7 +2,7 @@ import Headshot from "../Images/Headshot.png"
 export default function About(){
     return (
         <div className="d-flex justify-content-center col-12">
-            <div className="col-11 col-lg-9 col-xl-6 justify-content-center d-flex flex-wrap">
+            <div className="col-11 col-lg-9 col-xl-8 justify-content-center d-flex flex-wrap">
                 <div className="mt-0 co-12 mb-md-5">
                     <p className="mb-0">Hi there! I'm</p>
                     <p className="h1" style={{fontSize: 60}}> <span className="lightBlueText">James Connors</span>.</p>
@@ -14,7 +14,7 @@ export default function About(){
                     </div>
                     <div className="col-md-8 col-12">
                         <p className="lightBlueText h4">About Me</p>
-                        <p>Hi there! My name is James Connors, but most people call me Jimmy. </p> 
+                        <p> Hello! My name is James Connors, but most people call me Jimmy. </p> 
                         <p> My interest in programming started when I made simple video games online using Scratch- turns out that my childhood spent playing video games and my own passion to create lit a fire under me to make software that I can be proud of. </p> 
                         <p> As I delved into programming languages and other tools in high school and college, I quickly found that passion spreading to all areas of software development. Nowadays I work on web development, game development, and more.</p> 
                         <p> I'm currently looking for a job for when I graduate in May 2023. </p>
