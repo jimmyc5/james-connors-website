@@ -95,11 +95,11 @@ input.navButton:checked + p.navLabel {
 .footer {
   background-color: #25274D;
   text-align: center;
-  padding: 20px;
+  padding-top: 10px;
   position: fixed;
   left: 0;
   bottom: 0;
-  /* height: 60px; */
+  height: 60px;
   width: 100%;
 }
 
@@ -145,3 +145,13 @@ input.navButton:checked + p.navLabel {
   width: 100%;
   position: absolute;
 }
+
+.contactLink{
+  color:#AAABB8;
+  margin-left: 5px
+
+}
+a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  a:active { text-decoration: none; }
