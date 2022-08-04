@@ -2,19 +2,22 @@ import {ReactComponent as LinkSymbol} from '../Images/LinkIcon.svg'
 import {ReactComponent as GitHubLogo} from '../Images/GitHubLogo.svg'
 
 export default function ProjectExample(props){
-    const {title, link, subtitle, descriptionList, image, techList, gitHubLink, reverse} = props;
+    const {title, link, subtitle, descriptionList, image, techList, gitHubLink, reverse, replaceImageWith} = props;
 
-    console.log(descriptionList);
     return (
         <div className={`${reverse ? "flex-row" : "flex-row-reverse"} d-flex flex-wrap justify-content-center align-items-stretch mb-5`}>
-                    <div className="col-10 col-md-4 d-flex justify-content-center align-items-center">
-                        <div className="col-12 col-xl-9 col-lg-11">
+                    <div className={`${replaceImageWith == null ? "col-10 col-xl-3 col-md-4" : "col-10 col-xl-5 col-md-6"} d-flex justify-content-center align-items-center`}>
+                        <div className="col-12 col-lg-11">
+                            {replaceImageWith == null ? 
                             <a href={link}><img src={image} className="rounded pictureBorder projectImage col-12 col-md-auto" style={reverse ? {maxHeight: "100%", maxWidth: "150%", float:"left"} : {maxHeight: "100%", maxWidth: "150%", float:"right"}} /></a>
+                            :
+                            replaceImageWith
+                            }
                         </div>
                     </div>
-                    <div className={`col-12 col-md-8 p-3 d-flex flex-column ${reverse ? "align-items-left" : "align-items-right"}`}>
+                    <div className={`${replaceImageWith == null ? "col-12 col-md-8 col-xl-9" : "col-12 col-md-6 col-xl-7"} p-3 d-flex flex-column ${reverse ? "align-items-left" : "align-items-right"}`} style={{pointerEvents:'none'}}>
                         <div className="p-1 pb-0" style={reverse ? {textAlign:"right"} : {textAlign:"left"}}>
-                         <a href={link} className={`projectLink d-flex align-items-center ${reverse ? "flex-row-reverse" : "flex-row"}`}><p className="projectTitle h4 mb-0 mr-2"> {title}</p> {link != null && <LinkSymbol fill="#AAABB8" stroke='#AAABB8' className="ms-2 me-2 inlineLinkImage"/>}</a>
+                            <a style={{pointerEvents:'auto'}} href={link} className={`projectLink d-flex align-items-center ${reverse ? "flex-row-reverse" : "flex-row"}`}><p className="projectTitle h4 mb-0 mr-2"> {title}</p> {link != null && <LinkSymbol fill="#AAABB8" stroke='#AAABB8' className="ms-2 me-2 inlineLinkImage"/>}</a> 
                         <p className="mb-1"> {subtitle} </p>
                         </div>
                         
@@ -28,9 +31,9 @@ export default function ProjectExample(props){
                                 <p key={index} className="p-2 mt-0 m-2 mb-0">{tech}</p>
                             ))}
                         </div>
-                        <div className={`d-flex ${reverse ? "flex-row-reverse" : "flex-row"}`}>
-                            {link != null && <a href={link} className='ms-3 me-2'><GitHubLogo fill="#AAABB8" stroke='#AAABB8' className="linkImage"/></a> }
-                            {gitHubLink != null && <a href={gitHubLink} className="projectLink d-flex align-items-center"> <LinkSymbol fill="#AAABB8" stroke='#AAABB8' className="ms-3 inlineLinkImage"/></a>}
+                        <div className={`d-flex ${reverse ? "flex-row-reverse pe-3" : "flex-row ps-3"}`}>
+                            {gitHubLink != null && <a style={{pointerEvents:'auto'}} href={gitHubLink} className="projectLink d-flex align-items-center me-2'"> <GitHubLogo fill="#AAABB8" stroke='#AAABB8' className="linkImage "/></a>}
+                            {link != null && <a style={{pointerEvents:'auto'}} href={link} className=''><LinkSymbol fill="#AAABB8" stroke='#AAABB8' className=" inlineLinkImage"/></a> }
                         </div>
                     </div>
                 </div>
