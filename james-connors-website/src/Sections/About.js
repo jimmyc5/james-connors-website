@@ -16,7 +16,7 @@ export default function About(){
                         <p className="lightBlueText h4">About Me</p>
                         <p> Hello! My name is James Connors, but most people call me Jimmy. </p> 
                         <p> My interest in programming started when I made simple video games online using Scratch- turns out that my childhood spent playing video games and my own passion to create lit a fire under me to make software that I can be proud of. </p> 
-                        <p> As I delved into programming languages and other tools in high school and college, I quickly found that passion spreading to all areas of software development. Nowadays I work on web development, game development, and more.</p> 
+                        <p> As I delved into programming languages and other tools in high school and college, I quickly found that passion spreading to all areas of software development. Nowadays I work on web development, game development, and more. I'm now the president of the Student Game Developers Club at UVA, and I've worked in web development at two different internships. I make projects like this website for fun, and I would love to become a software engineer as my full-time job.</p> 
                         <p> I'm currently looking for a job for when I graduate in May 2023. </p>
                         <p> Here are some technologies I've worked with: </p>
                         <div className="d-flex col-12">

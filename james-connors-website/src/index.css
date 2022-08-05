@@ -102,8 +102,18 @@ input.navButton:checked + p.navLabel {
   height: 60px;
   width: 100%;
 }
+.header{
+  position: fixed;
+  top: 0;
+  height:60px;
+  width:100%;
+}
 
 .phantomFooter {
+  height:80px;
+  width: 100%;
+}
+.phantomHeader{
   height:60px;
   width: 100%;
 }
@@ -155,3 +165,39 @@ a:link { text-decoration: none; }
   a:visited { text-decoration: none; }
   a:hover { text-decoration: none; }
   a:active { text-decoration: none; }
+
+.navButton{
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  color:#AAABB8;
+}
+.navButton:hover{
+  color:#2E9CCA;
+}
+
+.resumeLink:link{
+  padding:5px;
+  margin:5px;
+  color: #2E9CCA;
+  border:#2E9CCA 2px solid;
+  border-radius: 10% / 20%
+}
+.resumeLink:visited{
+  padding:5px;
+  margin:5px;
+  color: #2E9CCA;
+  border:#2E9CCA 2px solid;
+  border-radius: 10% / 20%
+}
+.resumeLink:active{
+  padding:5px;
+  margin:5px;
+  color: #2E9CCA;
+  border:#2E9CCA 2px solid;
+  border-radius: 10% / 20%
+}
+.resumeLink:hover{
+  background-color: #2E9CCA;
+  color:#25274D;
+}

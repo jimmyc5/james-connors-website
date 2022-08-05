@@ -7,8 +7,8 @@ import PublicationScreenshot from "../Images/PublicationScreenshot.png"
 export default function Projects(){
     return (
         <div className="col-12 justify-content-center d-flex flex-wrap mt-5 mb-5">
-            <div className="col-11 mt-5 col-lg-9 col-xl-8s justify-content-center d-flex flex-wrap">
-                <p className="lightBlueText h4 col-12 mb-2"> Featured Projects </p>
+            <div className="col-11 col-lg-9 col-xl-8s justify-content-center d-flex flex-wrap">
+            <p className="lightBlueText h4 col-12 mb-2"> Featured Projects </p>
                 <ProjectExample
                     title="Dungeon Crab"
                     link="https://jimmyc5.itch.io/dungeon-crab"
