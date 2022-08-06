@@ -1,7 +1,6 @@
 import DCrabImg from "../Images/DungeonCrab.png"
 import NegativeSpaceImg from "../Images/NegativeSpace.png"
-import {ReactComponent as LinkSymbol} from '../Images/LinkIcon.svg'
-import {ReactComponent as GitHubLogo} from '../Images/GitHubLogo.svg'
+import WebsiteImage from "../Images/WebsitePicture.png"
 import ProjectExample from "../Components/ProjectExample"
 import PublicationScreenshot from "../Images/PublicationScreenshot.png"
 export default function Projects(){
@@ -77,7 +76,7 @@ export default function Projects(){
                         "Funnily enough, the website you're currently looking at is also a favorite project of mine! I made it using React as a way to prove to myself I was skilled in the framework following my internship at CapTech.",
                         "I suppose there's really very little else I need to tell you about it seeing as you've already been using the website. Have fun while you're here, and let me know if you have any other ideas for what I should do with it next!"
                     ]}
-                    image={PublicationScreenshot}
+                    image={WebsiteImage}
                     techList={[ "React", "JavaScript", "HTML/CSS"]}
                     gitHubLink={"https://github.com/jimmyc5/james-connors-website"}
                     reverse={false}
