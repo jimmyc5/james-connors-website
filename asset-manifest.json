@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/james-connors-website/static/css/main.393192a1.css",
+    "main.js": "/james-connors-website/static/js/main.be07b2c9.js",
+    "static/js/787.1bf23d97.chunk.js": "/james-connors-website/static/js/787.1bf23d97.chunk.js",
+    "static/media/DungeonCrab.png": "/james-connors-website/static/media/DungeonCrab.67dafee7aacc8bcf8657.png",
+    "static/media/Headshot.png": "/james-connors-website/static/media/Headshot.8a7e0f196711c075f734.png",
+    "static/media/JamesConnorsResume.pdf": "/james-connors-website/static/media/JamesConnorsResume.e0b7acf383ba99f97c78.pdf",
+    "static/media/PublicationScreenshot.png": "/james-connors-website/static/media/PublicationScreenshot.8cbb9734e7aa2aa9bed6.png",
+    "static/media/NegativeSpace.png": "/james-connors-website/static/media/NegativeSpace.47698f81e866b1f3de96.png",
+    "static/media/ItchLogo.svg": "/james-connors-website/static/media/ItchLogo.e06a0771d940eea6757d930aaa5cffe2.svg",
+    "static/media/LinkedInLogo.svg": "/james-connors-website/static/media/LinkedInLogo.2350a9bf3c9b140985fa189546aea6e6.svg",
+    "static/media/Email.svg": "/james-connors-website/static/media/Email.09f59b228b67847fa9c917396a218b25.svg",
+    "static/media/LinkIcon.svg": "/james-connors-website/static/media/LinkIcon.0d84a6c97f817df2b778a38b883674b5.svg",
+    "static/media/GitHubLogo.svg": "/james-connors-website/static/media/GitHubLogo.04be58c17b3d5e9744424d414240dd85.svg",
+    "index.html": "/james-connors-website/index.html",
+    "main.393192a1.css.map": "/james-connors-website/static/css/main.393192a1.css.map",
+    "main.be07b2c9.js.map": "/james-connors-website/static/js/main.be07b2c9.js.map",
+    "787.1bf23d97.chunk.js.map": "/james-connors-website/static/js/787.1bf23d97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.393192a1.css",
+    "static/js/main.be07b2c9.js"
+  ]
+}
