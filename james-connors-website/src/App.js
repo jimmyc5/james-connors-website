@@ -41,7 +41,7 @@ function App() {
                 <div ref={projectsRef} style={{paddingTop: 60}}>
                     <Projects/>
                 </div>
-                <div ref={contactRef} style={{paddingTop: 60}}>
+                <div ref={contactRef} style={{paddingTop: 40}}>
                     <Contact/>
                 </div>
                 <Footer />

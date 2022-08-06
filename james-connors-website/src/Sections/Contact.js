@@ -4,7 +4,7 @@ import {ReactComponent as LinkedInLogo} from '../Images/LinkedInLogo.svg'
 import {ReactComponent as EmailSymbol} from '../Images/Email.svg'
 export default function Contact(){
     return (
-        <div className="col-12 justify-content-center d-flex flex-wrap  mb-5">
+        <div className="col-12 justify-content-center d-flex flex-wrap mb-5">
             <div className="col-11 col-lg-9 mb-5 col-xl-8s justify-content-center d-flex flex-wrap">
                 <div className="col-12 col-xl-6 col-lg-8 contactBox d-flex flex-column align-items-center p-2">
                     <p className="lightBlueText h3 mb-2 sectionTitle col-12"> Contact Me </p>
