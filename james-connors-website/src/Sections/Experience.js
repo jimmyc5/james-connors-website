@@ -58,11 +58,11 @@ export default function Experience(){
     return (
         <div className="col-12 justify-content-center d-flex flex-wrap mt-5 mb-5">
             <div className="col-xl-8 col-lg-10 col-sm-10 col-12 d-flex justify-content-center flex-wrap">
-                <p className="lightBlueText h4 col-12"> Work Experience </p>
-                <div className="col-12 d-flex align-items-stretch justify-content-center darkBox" style={{minHeight: "20em"}}>
-                    <div className="col-3 d-flex">
-                        <div className="radio d-flex flex-column justify-content-start align-items-stretch tabs">
-                            <label className="navLabel mt-1">
+                <p className="lightBlueText h3 col-12 sectionTitle"> Work Experience </p>
+                <div className="col-12 d-flex align-items-stretch justify-content-left " style={{minHeight: "20em"}}>
+                    <div className="col-3 d-flex justify-content-center">
+                        <div className="radio d-flex flex-column justify-content-start align-items-stretch tabs darkBox me-3 col-12">
+                            <label className="navLabel">
                                 <input type="radio" value="CapTech" name="tab" className="navButton d-none" onChange={(e) => setCurrentTab(e.target.value)} checked={currentTab==="CapTech"}/>
                                 <p className="navLabel mb-0"> CapTech </p>
                             </label>
@@ -80,7 +80,7 @@ export default function Experience(){
                             </label>
                         </div>
                     </div>
-                    <div className="col-9 experienceBox">
+                    <div className="col-9 experienceBox darkBox">
                         {renderTab()}
                     </div>
                 </div>

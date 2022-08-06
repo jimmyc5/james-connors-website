@@ -201,3 +201,10 @@ a:link { text-decoration: none; }
   background-color: #2E9CCA;
   color:#25274D;
 }
+.contactBox{
+  max-width: 500px
+}
+.sectionTitle{
+  border-bottom:#464866 4px solid;
+  padding-bottom:1%
+}

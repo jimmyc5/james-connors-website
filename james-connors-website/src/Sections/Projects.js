@@ -6,9 +6,9 @@ import ProjectExample from "../Components/ProjectExample"
 import PublicationScreenshot from "../Images/PublicationScreenshot.png"
 export default function Projects(){
     return (
-        <div className="col-12 justify-content-center d-flex flex-wrap mt-5 mb-5">
+        <div className="col-12 justify-content-center d-flex flex-wrap mt-5">
             <div className="col-11 col-lg-9 col-xl-8s justify-content-center d-flex flex-wrap">
-            <p className="lightBlueText h4 col-12 mb-2"> Featured Projects </p>
+            <p className="lightBlueText h4 col-12 mb-2 sectionTitle"> Featured Projects </p>
                 <ProjectExample
                     title="Dungeon Crab"
                     link="https://jimmyc5.itch.io/dungeon-crab"
@@ -35,7 +35,12 @@ export default function Projects(){
                     techList={[ "JavaScript", "PHP", "HTML/CSS"]}
                     gitHubLink={'https://github.com/atEchoOff/remote-record'}
                     reverse={true}
-                    replaceImageWith={<iframe className="" style={{maxHeight: "100%", maxWidth: "130%", float:"left"}} width="560" height="315" src="https://www.youtube.com/embed/nioD_22Nz48" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>}
+                    replaceImageWith={
+                        <div>
+                            <iframe className="d-md-none d-block" style={{maxHeight: "100%", maxWidth: "100%", float:"left"}} width="560" height="315" src="https://www.youtube.com/embed/nioD_22Nz48" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe className="d-none d-md-block" style={{maxHeight: "100%", maxWidth: "130%", float:"left"}} width="560" height="315" src="https://www.youtube.com/embed/nioD_22Nz48" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        </div>
+                    }
                  />
                  <ProjectExample
                     title="Negative Space"
