@@ -5,7 +5,7 @@ import Contact from "./Sections/Contact";
 import Experience from "./Sections/Experience";
 import Projects from "./Sections/Projects";
 import Footer from './Components/Footer';
-import Resume from './StaticFiles/JamesConnorsResume.pdf';
+import Resume from './StaticFiles/James Connors Resume.pdf';
 
 function App() {
 
