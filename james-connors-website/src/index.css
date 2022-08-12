@@ -27,6 +27,7 @@
 .projectBox{
   background-color: rgba(21, 23, 61, 0.90);
   padding: 2%;
+  z-index:1;
 }
 
 .darkBox {
@@ -52,28 +53,33 @@ code {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-input.navButton + label {
+input.expButton{
+  height:0;
+  width:0;
+}
+
+input.expButton + label {
   background-color: transparent;
   padding: 10px;
   border: none;
 }
 
-input.navButton + p.navLabel {
+input.expButton + p.navLabel {
   background-color: transparent;
   border-left:5px solid #464866;
   padding: 12px;
 }
 
-input.navButton + p.navLabel:hover {
+input.expButton + p.navLabel:hover {
   background-color: #464866;
 }
 
-input.navButton:checked + label {
+input.expButton:checked + label {
   color: #2E9CCA;
   border: none;
 }
 
-input.navButton:checked + p.navLabel {
+input.expButton:checked + p.navLabel {
   color: #2E9CCA;
   border-left:5px solid #2E9CCA;
   background-color: #464866;
@@ -101,12 +107,14 @@ input.navButton:checked + p.navLabel {
   bottom: 0;
   height: 60px;
   width: 100%;
+  z-index:10;
 }
 .header{
   position: fixed;
   top: 0;
   height:60px;
   width:100%;
+  z-index:10;
 }
 
 .phantomFooter {
@@ -137,6 +145,14 @@ input.navButton:checked + p.navLabel {
 }
 .projectLink:hover {
   color:#29648A
+}
+.projectHeaderNoLink{
+  color:#2E9CCA;
+  text-decoration:none;
+}
+.projectHeaderNoLink:hover{
+  color:#2E9CCA;
+  text-decoration:none;
 }
 .projectImage {
   
@@ -207,4 +223,14 @@ a:link { text-decoration: none; }
 .sectionTitle{
   border-bottom:#464866 4px solid;
   padding-bottom:1%
+}
+
+.projectImage {
+  max-height: 100%;
+  max-width: 150%;
+  z-index:-1;
+}
+.projectImageHover:hover{
+  opacity:0.8;
+  z-index:1;
 }

@@ -15,7 +15,7 @@ export default function Experience(){
                         dateRange="May 2022 - August 2022"
                         detailsList={[
                             "Worked full time as a Software Integration Intern in CapTech's Elevate program.",
-                            "Duties included the development of an airline website and other technological solutions for an in-company client. Worked in a team, and primarily handled front-end development, though also helped out some in the backend.",
+                            "Duties included the development of an airline website and other technological solutions for an in-company client. Worked in a team, and primarily handled frontend development, though also helped out some in the backend.",
                             " Tools used include React, Spring Boot, Java, JavaScript, HTML, and CSS as well as Git and GitLab for version control."
                         ]}/>
                 );
@@ -37,8 +37,7 @@ export default function Experience(){
                     detailsList={[
                         "Worked part time as a Teaching Assistant for Professor Aaron Bloomfield",
                         "TA for the course CS 2150, Program and Data Representation, which teaches C++, assembly, data structures, and more.",
-                        "Duties include holding labs, office hours, and answering student questions on the course.",
-                        "Stopped work only after the class was discontinued and replaced by a new curriculum."
+                        "Duties include holding labs, office hours, and answering student questions on the course."
                     ]}/>
             case "UVA Research":
                 return <ExperienceExample 
@@ -47,7 +46,7 @@ export default function Experience(){
                 dateRange="May 2020 - February 2022"
                 detailsList={[
                     " Worked part time as a Research Assistant for Professor John R. Hott.",
-                    " Tasks included the parsing, anonymization, visualization, and analysis of data utilizing Python and other tools, plus collaborating on the resulting publication and presentation.",
+                    " Tasks included the parsing, anonymization, visualization, and analysis of data utilizing Python and python packages like NumPy and Matplotlib, among other tools. Also collaborated on the resulting publication and presentation.",
                     ' Published and presented the resulting paper "How Do Students Collaborate? Analyzing Group Choice in a Collaborative Learning Environment" in the conference SIGCSE 2021.'
                 ]}/>
             default:
@@ -56,27 +55,27 @@ export default function Experience(){
     }
 
     return (
-        <div className="col-12 justify-content-center d-flex flex-wrap mt-5 mb-5">
-            <div className="col-xl-8 col-lg-10 col-sm-10 col-12 d-flex justify-content-center flex-wrap">
+        <div className="col-12 justify-content-center d-flex flex-wrap mt-5 mb-2">
+            <div className="col-xl-8 col-lg-10 col-sm-10 col-12 d-flex justify-content-center flex-wrap p-3">
                 <p className="lightBlueText h3 col-12 sectionTitle"> Work Experience </p>
                 <div className="col-12 d-flex align-items-stretch justify-content-left " style={{minHeight: "20em"}}>
                     <div className="col-3 d-flex justify-content-center">
                         <div className="radio d-flex flex-column justify-content-start align-items-stretch tabs darkBox me-3 col-12">
-                            <label className="navLabel">
-                                <input type="radio" value="CapTech" name="tab" className="navButton d-none" onChange={(e) => setCurrentTab(e.target.value)} checked={currentTab==="CapTech"}/>
+                            <label className="navLabel d-flex flex-column align-items-stretch">
+                                <input type="radio" value="CapTech" name="tab" className="expButton" onChange={(e) => setCurrentTab(e.target.value)} checked={currentTab==="CapTech"}/>
                                 <p className="navLabel mb-0"> CapTech </p>
                             </label>
-                            <label className="navLabel">
-                                <input type="radio" value="UVA TAing" name="tab" className="navButton d-none" onChange={(e) => setCurrentTab(e.target.value)} checked={currentTab==="UVA TAing"}/>
+                            <label className="navLabel d-flex flex-column align-items-stretch">
+                                <input type="radio" value="Northrop Grumman" name="tab" className="expButton" onChange={(e) => setCurrentTab(e.target.value)} checked={currentTab==="Northrop Grumman"}/>
+                                <p className="navLabel mb-0">Northrop Grumman</p>
+                            </label>
+                            <label className="navLabel d-flex flex-column align-items-stretch">
+                                <input type="radio" value="UVA TAing" name="tab" className="expButton" onChange={(e) => setCurrentTab(e.target.value)} checked={currentTab==="UVA TAing"}/>
                                 <p className="navLabel mb-0">UVA Teaching Assistant</p>
                             </label>
-                            <label className="navLabel">
-                                <input type="radio" value="UVA Research" name="tab" className="navButton d-none" onChange={(e) => setCurrentTab(e.target.value)} checked={currentTab==="UVA Research"}/>
+                            <label className="navLabel d-flex flex-column align-items-stretch">
+                                <input type="radio" value="UVA Research" name="tab" className="expButton" onChange={(e) => setCurrentTab(e.target.value)} checked={currentTab==="UVA Research"}/>
                                 <p className="navLabel mb-0">UVA Research</p>
-                            </label>
-                            <label className="navLabel">
-                                <input type="radio" value="Northrop Grumman" name="tab" className="navButton d-none" onChange={(e) => setCurrentTab(e.target.value)} checked={currentTab==="Northrop Grumman"}/>
-                                <p className="navLabel mb-0">Northrop Grumman</p>
                             </label>
                         </div>
                     </div>

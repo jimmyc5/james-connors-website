@@ -29,7 +29,7 @@ function App() {
                         <button onClick={() => executeScroll(experienceRef)} className='navButton'>Experience</button>
                         <button onClick={() => executeScroll(projectsRef)} className='navButton'>Projects</button>
                         <button onClick={() => executeScroll(contactRef)} className='navButton'>Contact</button>
-                        <a href={Resume} className="resumeLink">Resume</a>
+                        <a href={Resume} target="_blank" className="resumeLink">Resume</a>
                     </div>
                 </div>
                 <div ref={aboutRef} style={{paddingTop: 60}}>

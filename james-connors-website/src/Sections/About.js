@@ -17,7 +17,7 @@ export default function About(){
                         <div className="darkBox p-4 mb-2">
                             <p> Hello! My name is James Connors, but most people call me Jimmy. </p> 
                             <p> My interest in programming started when I made simple video games online using Scratch- turns out that my childhood spent playing video games and my own passion to create lit a fire under me to make software that I can be proud of. </p> 
-                            <p> As I delved into programming languages and other tools in high school and college, I quickly found that passion spreading to all areas of software development. Nowadays I work on web development, game development, and more. I'm now the president of the Student Game Developers Club at UVA, and I've worked in web development at two different internships. I make projects like this website for fun, and I would love to become a software engineer as my full-time job.</p> 
+                            <p> As I delved into programming languages and other tools in high school and college, I quickly found that passion spreading to all areas of software development. Nowadays I work on web development, game development, and more. I'm the president of the Student Game Developers Club at UVA, and I've worked in web development at two different internships. I make projects like this website for fun, and I would love to become a software engineer as my full-time job.</p> 
                             <p className="mb-0"> I'm currently looking for a job for when I graduate in May 2023. </p>
                         </div>
                         <div className="darkBox p-4">

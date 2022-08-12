@@ -13,7 +13,7 @@ export default function Projects(){
                     link="https://jimmyc5.itch.io/dungeon-crab"
                     subtitle="A game project I led in Student Game Developers"
                     descriptionList= {[
-                        <span>I was the director of the semester-long project 'Dungeon Crab' in the Student Game Developers Club at UVA in Spring 2022. You can play it <a style={{pointerEvents:'auto'}} className="lightBlueText" href={"https://jimmyc5.itch.io/dungeon-crab"}>here</a>.</span>,
+                        <span>I was the director of the semester-long project 'Dungeon Crab' in the Student Game Developers Club at UVA in Spring 2022. You can play it <a style={{pointerEvents:'auto'}} className="lightBlueText" href={"https://jimmyc5.itch.io/dungeon-crab"} target="_blank">here</a>.</span>,
                         "As director of Dungeon Crab, I led a team of around 8 people to make this game, organizing meetings and providing guidance. I also did the bulk of the programming on the project.",
                         "While any SGD product is limited by the fact that it's made only by students in what free time we have between classes and work, I'm still very proud of what the team and I could accomplish."
                     ]}
@@ -46,8 +46,8 @@ export default function Projects(){
                     link="https://jimmyc5.itch.io/negative-space"
                     subtitle="My personal favorite solo game project that I've made"
                     descriptionList= {[
-                        <span>'Negative Space' is the game I think I like the most out of all of the games I've worked on in the past. I made it over about a month of occasional work for the Finally Finish Something 2022 Game Jam. You can play it <a style={{pointerEvents:'auto'}} className="lightBlueText" href={"https://jimmyc5.itch.io/negative-space"}>here</a>.</span>,
-                        <span>This is just one example of the games I've worked on by myself in the past- I've actually made quite a few as a hobby. You can find the rest on <a style={{pointerEvents:'auto'}} className="lightBlueText" href={"https://jimmyc5.itch.io/"}>my itch.io account</a>.</span>,
+                        <span>'Negative Space' is the game I think I like the most out of all of the games I've worked on in the past. I made it over about a month of occasional work for the Finally Finish Something 2022 Game Jam. You can play it <a style={{pointerEvents:'auto'}} className="lightBlueText" href={"https://jimmyc5.itch.io/negative-space"} target="_blank">here</a>.</span>,
+                        <span>This is just one example of the games I've worked on by myself in the past- I've actually made quite a few as a hobby. You can find the rest on <a style={{pointerEvents:'auto'}} className="lightBlueText" href={"https://jimmyc5.itch.io/"} target="_blank">my itch.io account</a>.</span>,
                         "Like most of the games I've worked on, this game was made using the Unity engine, using C# for scripting."
                     ]}
                     image={NegativeSpaceImg}
