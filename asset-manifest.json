@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/james-connors-website/static/css/main.cf440d7c.css",
-    "main.js": "/james-connors-website/static/js/main.4a70427c.js",
+    "main.js": "/james-connors-website/static/js/main.19fdcebd.js",
     "static/js/787.1bf23d97.chunk.js": "/james-connors-website/static/js/787.1bf23d97.chunk.js",
     "static/media/DungeonCrab.png": "/james-connors-website/static/media/DungeonCrab.67dafee7aacc8bcf8657.png",
     "static/media/Headshot.png": "/james-connors-website/static/media/Headshot.8a7e0f196711c075f734.png",
     "static/media/WebsitePicture.png": "/james-connors-website/static/media/WebsitePicture.bc7ffa185d4705f165a4.png",
-    "static/media/James Connors Resume.pdf": "/james-connors-website/static/media/James Connors Resume.d007c4bf6e8050617c57.pdf",
+    "static/media/James Connors Resume.pdf": "/james-connors-website/static/media/James Connors Resume.1c8df734c3890ab73aff.pdf",
     "static/media/PublicationScreenshot.png": "/james-connors-website/static/media/PublicationScreenshot.8cbb9734e7aa2aa9bed6.png",
     "static/media/NegativeSpace.png": "/james-connors-website/static/media/NegativeSpace.47698f81e866b1f3de96.png",
     "static/media/ItchLogo.svg": "/james-connors-website/static/media/ItchLogo.e06a0771d940eea6757d930aaa5cffe2.svg",
@@ -16,11 +16,11 @@
     "static/media/GitHubLogo.svg": "/james-connors-website/static/media/GitHubLogo.04be58c17b3d5e9744424d414240dd85.svg",
     "index.html": "/james-connors-website/index.html",
     "main.cf440d7c.css.map": "/james-connors-website/static/css/main.cf440d7c.css.map",
-    "main.4a70427c.js.map": "/james-connors-website/static/js/main.4a70427c.js.map",
+    "main.19fdcebd.js.map": "/james-connors-website/static/js/main.19fdcebd.js.map",
     "787.1bf23d97.chunk.js.map": "/james-connors-website/static/js/787.1bf23d97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf440d7c.css",
-    "static/js/main.4a70427c.js"
+    "static/js/main.19fdcebd.js"
   ]
 }
